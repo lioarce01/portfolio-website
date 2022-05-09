@@ -29,9 +29,9 @@ const Works = () => {
             <List ml ={4} my={4}>
                   <Section>
                     <ListItem>
-                        <Meta>Code</Meta>
+                        <Meta>NFT Marketplace</Meta>
                         <Link href='https://github.com/lioarce01/NFT-Marketplace'>
-                            NFT Marketplace<ExternalLinkIcon mx='2px'/>
+                            Github<ExternalLinkIcon mx='2px'/>
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -41,9 +41,9 @@ const Works = () => {
                     </Section>
                     <Section>
                         <ListItem>
-                            <Meta>Code</Meta>
+                            <Meta>Blockchain-Based Ecommerce</Meta>
                                 <Link href='https://github.com/lioarce01/ecommerce-blockchain-based'>
-                                E-Commerse Blockchain Based<ExternalLinkIcon mx='2px'/>
+                                Github<ExternalLinkIcon mx='2px'/>
                                 </Link>
                         </ListItem>
                         <ListItem>
@@ -53,14 +53,32 @@ const Works = () => {
                     </Section>
                     <Section>
                         <ListItem>
-                            <Meta>Code</Meta>
+                            <Meta>Basic DAO</Meta>
                             <Link href='https://github.com/lioarce01/CampaignFactory-Solidity'>
-                          Basic DAO<ExternalLinkIcon mx='2px'/>
+                          Github<ExternalLinkIcon mx='2px'/>
                             </Link>
                         </ListItem>
                         <ListItem>
                             <Meta>Stack</Meta>
                             <span>NextJS, Solidity, Web3JS, Semantic UI React</span>
+                        </ListItem>
+                        </Section>
+                        <Section>
+                        <ListItem>
+                            <Meta>Netflix Clone</Meta>
+                            <Link href='https://github.com/lioarce01/netflix-clone'>
+                          Github <ExternalLinkIcon mx='2px'/>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Meta>Website</Meta>
+                            <Link href='https://netflix-clone-psi-eight.vercel.app/'>
+                          Netflix Clone <ExternalLinkIcon mx='2px'/>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Meta>Stack</Meta>
+                            <span>NextJS, TailwindCSS, Typescript</span>
                         </ListItem>
                     </Section>
                 </List>
