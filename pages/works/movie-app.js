@@ -7,33 +7,38 @@ import Layout from '../../components/layouts/article'
 const Work = () => {
 
   return (
-      <Layout title='Inkdrop'>
+      <Layout title='Movie APP '>
           <Container>
               <Title>
-                  Inkdrop <Badge>2016</Badge>
+                  Movie APP <Badge>2022</Badge>
               </Title>
               <P>
-                  A Markdown note-taking app with 100+ plugins, 
-                  cross-platform and encrypted data sync support.
+                  An application to see movies & series.
               </P>
               <List ml ={4} my={4}>
                   <ListItem>
                       <Meta>Website</Meta>
-                      <Link href='https://www.inkdrop.app/'>
-                          https://www.inkdrop.app/ <ExternalLinkIcon mx='2px'/>
+                      <Link href='https://movieapp.lioarce01.vercel.app/'>
+                          Movie App  <ExternalLinkIcon mx='2px'/>
+                      </Link>
+                  </ListItem>
+                  <ListItem>
+                      <Meta>Github</Meta>
+                      <Link href='https://github.com/lioarce01/movie-app'>
+                          Github  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
                   <ListItem>
                       <Meta>Platform</Meta>
-                      <span>Windows/macOS/Linux/iOS/Android</span>
+                      <span>Windows/macOS/iOS/Android</span>
                   </ListItem>
                   <ListItem>
                       <Meta>Stack</Meta>
-                      <span>NodeJS, Electron, React Native</span>
+                      <span>NodeJS, Typescript, Firebase, TailwindCSS, MUI Core</span>
                   </ListItem>
+                  <br></br>
+                  <WorkImage src="/images/works/thumbNetflix.png" alt="MovieApp" />
               </List>
-              <WorkImage src='/images/works/inkdrop_01.png' alt='Inkdrop' />
-              <WorkImage src='/images/works/inkdrop_02.png' alt='Inkdrop' />
           </Container>
       </Layout>
   )
