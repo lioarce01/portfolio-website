@@ -37,7 +37,7 @@ const Work = () => {
                       <span>NodeJS, NextJS, TailwindCSS</span>
                   </ListItem>
                   <br></br>
-                  <WorkImage src="/images/works/thumbNetflix.png" alt="MovieApp" />
+                  <WorkImage src="/images/works/thumbSpotify.png" alt="MusicApp" />
               </List>
           </Container>
       </Layout>

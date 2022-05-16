@@ -24,8 +24,6 @@ import {
     IoLogoDiscord,
     IoLogoLinkedin
 } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 
 const Page = () => {
     return (
