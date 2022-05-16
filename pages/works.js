@@ -3,6 +3,7 @@ import Section from '../components/section'
 import  { WorkGridItem } from '../components/grid-item'
 import thumbNetflix from '../public/images/works/thumbNetflix.png'
 import thumbDAO from '../public/images/works/thumbDAO.webp'
+import thumbSpotify from '../public/images/works/thumbSpotify'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -31,6 +32,11 @@ const Works = () => {
                         Basic Decentralized Autonomous Organization App to 
                         publish and invest in the projects that you see in the future, 
                         with a system of votes and requests
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="music-app" title="Spotify API app" thumbnail={thumbSpotify}>
+                        A music app using Spotify API for Developers. Use premium account to test.
                     </WorkGridItem>
                 </Section>
                 </SimpleGrid> 
