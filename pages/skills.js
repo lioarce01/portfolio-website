@@ -10,7 +10,7 @@ import { CheckIcon } from '@chakra-ui/icons'
 const Skills = () => {
 
     return (
-        <Layout title='skills'>
+        <Layout title='Skills '>
           <Container>
             <Heading as='h3' variant='section-title'>
                 Hard Skills

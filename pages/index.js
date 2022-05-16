@@ -37,7 +37,7 @@ const Page = () => {
             <Heading as='h2' variant='page-title'>
                 Lionel Arce
             </Heading>
-            <p>Frontend / Blockchain Developer</p>
+            <p>Full-stack / Blockchain Developer</p>
             </Box>
             <Box 
                 flexShrink={0} 
@@ -63,10 +63,10 @@ const Page = () => {
                 Work
             </Heading>
             <Paragraph>
-                Lionel Arce is a front-end developer based in Argentina with a great passion 
+                Lionel Arce is a full-stack developer based in Argentina with a great passion 
                 for designing and building websites. He is also very passionate about the crypto world 
                 and decided to start studying blockchain development. Currently building projects for his 
-                portfolio combining front-end with blockchain technology.
+                portfolio combining fullstack and blockchain technology.
             </Paragraph>
             <Box align='center' my={4}>
                 <NextLink href='https://github.com/lioarce01'>
@@ -86,7 +86,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear> 2020 </BioYear>
-                Finished the Information Security Course at Universidad Tecnologica Nacional.
+                Finished the Information Security Course at National Technology University.
             </BioSection>
             <BioSection>
                 <BioYear> 2022 </BioYear>
@@ -94,7 +94,7 @@ const Page = () => {
             </BioSection>
             <BioSection>
                 <BioYear> 2022 to present </BioYear>
-                Studying Accounting at Universidad Nacional de la Matanza.
+                Studying Accounting at National University of La Matanza.
                 Studying Fullstack Javascript and Blockchain Developer.
             </BioSection>
         </Section>
