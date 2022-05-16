@@ -19,7 +19,7 @@ const Work = () => {
                   <ListItem>
                       <Meta>Website</Meta>
                       <Link href='https://appmusic-spotify-api.vercel.app/'>
-                          Movie App  <ExternalLinkIcon mx='2px'/>
+                          Music App  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
                   <ListItem>
