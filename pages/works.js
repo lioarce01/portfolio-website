@@ -4,6 +4,7 @@ import  { WorkGridItem } from '../components/grid-item'
 import thumbNetflix from '../public/images/works/thumbNetflix.png'
 import thumbDAO from '../public/images/works/thumbDAO.webp'
 import thumbSpotify from '../public/images/works/thumbSpotify.png'
+import thumbChat from '../public/images/works/thumbChat.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -49,7 +50,7 @@ const Works = () => {
                     <WorkGridItem 
                         id="chat-app" 
                         title="Chat App" 
-                        thumbnail={thumbSpotify}>
+                        thumbnail={thumbChat}>
                         Chat App with basic functionalities.
                     </WorkGridItem>
                 </Section>

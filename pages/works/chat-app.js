@@ -37,7 +37,7 @@ const Work = () => {
                       <span>NodeJS, NextJS, ChakraUI</span>
                   </ListItem>
                   <br></br>
-                  <WorkImage src="" alt="" />
+                  <WorkImage src="src=/images/works/thumbChat.png" alt="Chat App" />
               </List>
           </Container>
       </Layout>
