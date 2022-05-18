@@ -18,14 +18,17 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
 
                 <Section>
-                    <WorkGridItem id="movie-app" title="Movie App" thumbnail={thumbNetflix}>
+                    <WorkGridItem 
+                        id="movie-app" 
+                        title="Movie App" 
+                        thumbnail={thumbNetflix}>
                         An application to watch movies, series, trends, the most watched, 
                         watch trailers, genres, make your own list, etc.
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem
-                     id="DAO"
+                        id="DAO"
                         title="DAO"
                         thumbnail={thumbDAO}
                     >
@@ -35,8 +38,19 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="music-app" title="Spotify API app" thumbnail={thumbSpotify}>
+                    <WorkGridItem 
+                        id="music-app" 
+                        title="Spotify API app" 
+                        thumbnail={thumbSpotify}>
                         A music app using Spotify API for Developers. Use premium account to test.
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="chat-app" 
+                        title="Chat App" 
+                        thumbnail={thumbSpotify}>
+                        Chat App with basic functionalities.
                     </WorkGridItem>
                 </Section>
                 </SimpleGrid> 
