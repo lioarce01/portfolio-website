@@ -37,7 +37,7 @@ const Page = () => {
             <Heading as='h2' variant='page-title'>
                 Lionel Arce
             </Heading>
-            <p>Full-stack / Blockchain Developer</p>
+            <p>Full-stack web developer</p>
             </Box>
             <Box 
                 flexShrink={0} 
@@ -66,7 +66,7 @@ const Page = () => {
                 Lionel Arce is a full-stack developer based in Argentina with a great passion 
                 for designing and building websites. He is also very passionate about the crypto world 
                 and decided to start studying blockchain development. Currently building projects for his 
-                portfolio combining fullstack and blockchain technology.
+                portfolio combining Frontend with blockchain technology.
             </Paragraph>
             <Box align='center' my={4}>
                 <NextLink href='https://github.com/lioarce01'>
@@ -100,7 +100,7 @@ const Page = () => {
         </Section>
         <Section delay={0.3}>
             <Heading as='h3' variant='section-title'>
-                On the web
+                Contact
             </Heading>
             <List>
                 <ListItem>
