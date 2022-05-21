@@ -5,6 +5,7 @@ import thumbNetflix from '../public/images/works/thumbNetflix.png'
 import thumbDAO from '../public/images/works/thumbDAO.webp'
 import thumbSpotify from '../public/images/works/thumbSpotify.png'
 import thumbChat from '../public/images/works/thumbChat.png'
+import thumbCloud from '../public/images/works/thumbCloud.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -27,7 +28,7 @@ const Works = () => {
                         watch trailers, genres, make your own list, etc.
                     </WorkGridItem>
                 </Section>
-                <Section>
+                {/*<Section>
                     <WorkGridItem
                         id="DAO"
                         title="DAO"
@@ -37,7 +38,7 @@ const Works = () => {
                         publish and invest in the projects that you see in the future, 
                         with a system of votes and requests
                     </WorkGridItem>
-                </Section>
+    </Section>*/}
                 <Section>
                     <WorkGridItem 
                         id="music-app" 
@@ -54,6 +55,15 @@ const Works = () => {
                         Chat App with basic functionalities.
                     </WorkGridItem>
                 </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="cloud-app" 
+                        title="Cloud Management App" 
+                        thumbnail={thumbCloud}>
+                        Cloud management concept web
+                    </WorkGridItem>
+                </Section>
+
                 </SimpleGrid> 
             </Container>
         </Layout>
