@@ -13,7 +13,8 @@ const Work = () => {
                   Music APP <Badge>2022</Badge>
               </Title>
               <P>
-                  An application to play music from Spotify
+                  An application to play music from Spotify.
+                  Use only PREMIUM account.
               </P>
               <List ml ={4} my={4}>
                   <ListItem>

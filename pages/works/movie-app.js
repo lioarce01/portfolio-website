@@ -14,6 +14,7 @@ const Work = () => {
               </Title>
               <P>
                   An application to see movies & series.
+                  Use test account described in Github.
               </P>
               <List ml ={4} my={4}>
                   <ListItem>
