@@ -7,24 +7,24 @@ import Layout from '../../components/layouts/article'
 const Work = () => {
 
   return (
-      <Layout title='Cloud Management APP'>
+      <Layout title='Defi APP '>
           <Container>
               <Title>
-                  Chat APP <Badge>2022</Badge>
+                  Defi APP <Badge>2022</Badge>
               </Title>
               <P>
-                  Cloud management concept app
+                  Defi trading protocol frontend
               </P>
               <List ml ={4} my={4}>
                   <ListItem>
                       <Meta>Website</Meta>
-                      <Link href='https://cloud-react-app-beta.vercel.app/'>
-                          Cloud Management App  <ExternalLinkIcon mx='2px'/>
+                      <Link href='https://defi-react-app.vercel.app/'>
+                          Defi trading App  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
                   <ListItem>
                       <Meta>Github</Meta>
-                      <Link href='https://github.com/lioarce01/cloud-react-app'>
+                      <Link href='https://github.com/lioarce01/defi-react-app'>
                           Github  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
@@ -34,10 +34,10 @@ const Work = () => {
                   </ListItem>
                   <ListItem>
                       <Meta>Stack</Meta>
-                      <span>NodeJS, ReactJS, TailwindCSS</span>
+                      <span>NodeJS, ReactJS, CSS</span>
                   </ListItem>
                   <br></br>
-                  <WorkImage src="src=/images/works/thumbCloud.png" alt="Cloud App" />
+                  <WorkImage src="/images/works/thumbDefi.png" alt="Defi App" />
               </List>
           </Container>
       </Layout>

@@ -1,6 +1,6 @@
 
 import Layout from '../components/layouts/article'
-import { Container, Badge, Link, List, ListItem, Heading, ListIcon } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, Heading, ListIcon, Grid } from '@chakra-ui/react'
 import { Meta } from '../components/work'
 import P from '../components/paragraph'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -15,7 +15,7 @@ const Skills = () => {
             <Heading as='h3' variant='section-title'>
                 Hard Skills
             </Heading>
-              <List ml ={4} my={4}>
+            <List ml ={4} my={4} spacing={3}>
                   <Section>
                       <ListItem>
                           <Meta>NodeJS</Meta>

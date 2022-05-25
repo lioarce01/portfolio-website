@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => {
 
   return (
-      <Layout title='Music APP '>
+      <Layout title='Chat APP '>
           <Container>
               <Title>
                   Chat APP <Badge>2022</Badge>
@@ -37,7 +37,7 @@ const Work = () => {
                       <span>NodeJS, NextJS, ChakraUI</span>
                   </ListItem>
                   <br></br>
-                  <WorkImage src="src=/images/works/thumbChat.png" alt="Chat App" />
+                  <WorkImage src="/images/works/thumbChat.png" alt="Chat App" />
               </List>
           </Container>
       </Layout>

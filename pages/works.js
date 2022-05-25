@@ -6,6 +6,7 @@ import thumbDAO from '../public/images/works/thumbDAO.webp'
 import thumbSpotify from '../public/images/works/thumbSpotify.png'
 import thumbChat from '../public/images/works/thumbChat.png'
 import thumbCloud from '../public/images/works/thumbCloud.png'
+import thumbDefi from '../public/images/works/thumbDefi.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -49,18 +50,26 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem 
-                        id="chat-app" 
-                        title="Chat App" 
-                        thumbnail={thumbChat}>
-                        Chat App with basic functionalities.
+                        id="cloud-app" 
+                        title="Cloud Management App" 
+                        thumbnail={thumbCloud}>
+                        Cloud management frontend web
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem 
-                        id="cloud-app" 
-                        title="Cloud Management App" 
-                        thumbnail={thumbCloud}>
-                        Cloud management concept web
+                        id="defi-app" 
+                        title="DeFi App" 
+                        thumbnail={thumbDefi}>
+                        DeFi trading frontend web
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="chat-app" 
+                        title="Chat App" 
+                        thumbnail={thumbChat}>
+                        Chat App with basic functionalities.
                     </WorkGridItem>
                 </Section>
 
