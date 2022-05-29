@@ -7,6 +7,7 @@ import thumbSpotify from '../public/images/works/thumbSpotify.png'
 import thumbChat from '../public/images/works/thumbChat.png'
 import thumbCloud from '../public/images/works/thumbCloud.png'
 import thumbDefi from '../public/images/works/thumbDefi.png'
+import thumbCrypto from '../public/images/works/thumbCrypto.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -70,6 +71,14 @@ const Works = () => {
                         title="Chat App" 
                         thumbnail={thumbChat}>
                         Chat App with basic functionalities.
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="crypto-app" 
+                        title="Crypto Tracker" 
+                        thumbnail={thumbCrypto}>
+                         A Cryptocurrency tracker.
                     </WorkGridItem>
                 </Section>
 
