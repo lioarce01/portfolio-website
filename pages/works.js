@@ -84,7 +84,7 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem 
-                        id="ecommerce-app" 
+                        id="ecommerce" 
                         title="E-Commerce App" 
                         thumbnail={thumbEcommerce}>
                          A basic e-commerce with ecommerce.js
