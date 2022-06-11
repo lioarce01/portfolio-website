@@ -18,13 +18,13 @@ const Work = () => {
               <List ml ={4} my={4}>
                   <ListItem>
                       <Meta>Website</Meta>
-                      <Link href='https://defi-react-app.vercel.app/'>
+                      <Link href='https://mystore-with-commercejs.vercel.app'>
                           E-Commerce  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
                   <ListItem>
                       <Meta>Github</Meta>
-                      <Link href='https://github.com/lioarce01/defi-react-app'>
+                      <Link href='https://github.com/lioarce01/e_commerce-react'>
                           Github  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
@@ -34,7 +34,7 @@ const Work = () => {
                   </ListItem>
                   <ListItem>
                       <Meta>Stack</Meta>
-                      <span>NodeJS, ReactJS, MaterialUI</span>
+                      <span>NodeJS, ReactJS, Material-UI</span>
                   </ListItem>
                   <br></br>
                   <WorkImage src="/images/works/thumbEcommerce.png" alt="Ecommerce App" />
