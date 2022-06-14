@@ -9,6 +9,7 @@ import thumbCloud from '../public/images/works/thumbCloud.png'
 import thumbDefi from '../public/images/works/thumbDefi.png'
 import thumbCrypto from '../public/images/works/thumbCrypto.png'
 import thumbEcommerce from '../public/images/works/thumbEcommerce.png'
+import thumbWeather from '../public/images/works/thumbWeather.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -88,6 +89,14 @@ const Works = () => {
                         title="E-Commerce App" 
                         thumbnail={thumbEcommerce}>
                          A basic e-commerce with ecommerce.js
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="weather-app" 
+                        title="Weather App" 
+                        thumbnail={thumbWeather}>
+                         A basic React Weather App
                     </WorkGridItem>
                 </Section>
 
