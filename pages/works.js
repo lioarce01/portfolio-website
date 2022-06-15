@@ -98,6 +98,8 @@ const Works = () => {
                         thumbnail={thumbWeather}>
                          React Weather App
                     </WorkGridItem>
+                </Section>
+                <Section>
                     <WorkGridItem 
                         id="restaurant-app" 
                         title="Pizza Restaurant App" 
@@ -105,7 +107,6 @@ const Works = () => {
                          Frontend Restaurant React App
                     </WorkGridItem>
                 </Section>
-
                 </SimpleGrid> 
             </Container>
         </Layout>
