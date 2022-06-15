@@ -10,6 +10,7 @@ import thumbDefi from '../public/images/works/thumbDefi.png'
 import thumbCrypto from '../public/images/works/thumbCrypto.png'
 import thumbEcommerce from '../public/images/works/thumbEcommerce.png'
 import thumbWeather from '../public/images/works/thumbWeather.png'
+import thumbPizza from '../public/images/works/thumbPizza.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -28,8 +29,7 @@ const Works = () => {
                         id="movie-app" 
                         title="Movie App" 
                         thumbnail={thumbNetflix}>
-                        An application to watch movies, series, trends, the most watched, 
-                        watch trailers, genres, make your own list, etc.
+                        Netflix Clone
                     </WorkGridItem>
                 </Section>
                 {/*<Section>
@@ -72,7 +72,7 @@ const Works = () => {
                         id="chat-app" 
                         title="Chat App" 
                         thumbnail={thumbChat}>
-                        Chat App with basic functionalities.
+                        Chat App with basic functionalities
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -80,7 +80,7 @@ const Works = () => {
                         id="crypto-app" 
                         title="Crypto Tracker" 
                         thumbnail={thumbCrypto}>
-                         A Cryptocurrency tracker.
+                         Cryptocurrency tracker.
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -88,7 +88,7 @@ const Works = () => {
                         id="ecommerce" 
                         title="E-Commerce App" 
                         thumbnail={thumbEcommerce}>
-                         A basic e-commerce with ecommerce.js
+                         E-commerce with ecommerce.js
                     </WorkGridItem>
                 </Section>
                 <Section>
@@ -96,7 +96,13 @@ const Works = () => {
                         id="weather-app" 
                         title="Weather App" 
                         thumbnail={thumbWeather}>
-                         A basic React Weather App
+                         React Weather App
+                    </WorkGridItem>
+                    <WorkGridItem 
+                        id="restaurant-app" 
+                        title="Pizza Restaurant App" 
+                        thumbnail={thumbPizza}>
+                         Frontend Restaurant React App
                     </WorkGridItem>
                 </Section>
 
