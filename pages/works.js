@@ -107,6 +107,8 @@ const Works = () => {
                         thumbnail={thumbPizza}>
                          Frontend Restaurant React App
                     </WorkGridItem>
+                </Section>
+                <Section>
                     <WorkGridItem 
                         id="twitch-app" 
                         title="Twitch App" 
