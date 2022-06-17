@@ -11,6 +11,7 @@ import thumbCrypto from '../public/images/works/thumbCrypto.png'
 import thumbEcommerce from '../public/images/works/thumbEcommerce.png'
 import thumbWeather from '../public/images/works/thumbWeather.png'
 import thumbPizza from '../public/images/works/thumbPizza.png'
+import thumbTwitch from '../public/images/works/thumbTwitch.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -105,6 +106,12 @@ const Works = () => {
                         title="Pizza Restaurant App" 
                         thumbnail={thumbPizza}>
                          Frontend Restaurant React App
+                    </WorkGridItem>
+                    <WorkGridItem 
+                        id="twitch-app" 
+                        title="Twitch App" 
+                        thumbnail={thumbTwitch}>
+                         Twitch clone with NextJS
                     </WorkGridItem>
                 </Section>
                 </SimpleGrid> 
