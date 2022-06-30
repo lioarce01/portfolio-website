@@ -13,6 +13,7 @@ import thumbWeather from '../public/images/works/thumbWeather.png'
 import thumbPizza from '../public/images/works/thumbPizza.png'
 import thumbTwitch from '../public/images/works/thumbTwitch.png'
 import thumbFinance from '../public/images/works/thumbFinance.png'
+import thumbTesla from '../public/images/works/thumbTesla.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -123,6 +124,14 @@ const Works = () => {
                         title="Data Finance App" 
                         thumbnail={thumbFinance}>
                          Data Finance Web with ReactJS
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="tesla-clone" 
+                        title="Tesla Clone App" 
+                        thumbnail={thumbTesla}>
+                         Tesla Clone Web with ReactJS
                     </WorkGridItem>
                 </Section>
                 </SimpleGrid> 
