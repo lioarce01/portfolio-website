@@ -27,34 +27,6 @@ const Works = () => {
                     Works
                 </Heading>
                 <SimpleGrid columns={[1,1,2]} gap={6}>
-
-                <Section>
-                    <WorkGridItem 
-                        id="movie-app" 
-                        title="Movie App" 
-                        thumbnail={thumbNetflix}>
-                        Netflix Clone
-                    </WorkGridItem>
-                </Section>
-                {/*<Section>
-                    <WorkGridItem
-                        id="DAO"
-                        title="DAO"
-                        thumbnail={thumbDAO}
-                    >
-                        Basic Decentralized Autonomous Organization App to 
-                        publish and invest in the projects that you see in the future, 
-                        with a system of votes and requests
-                    </WorkGridItem>
-    </Section>*/}
-                <Section>
-                    <WorkGridItem 
-                        id="music-app" 
-                        title="Spotify API app" 
-                        thumbnail={thumbSpotify}>
-                        A music app using Spotify API for Developers. Use premium account to test.
-                    </WorkGridItem>
-                </Section>
                 <Section>
                     <WorkGridItem 
                         id="cloud-app" 
@@ -73,26 +45,10 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem 
-                        id="chat-app" 
-                        title="Chat App" 
-                        thumbnail={thumbChat}>
-                        Chat App with basic functionalities
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem 
                         id="crypto-app" 
                         title="Crypto Tracker" 
                         thumbnail={thumbCrypto}>
                          Cryptocurrency tracker.
-                    </WorkGridItem>
-                </Section>
-                <Section>
-                    <WorkGridItem 
-                        id="ecommerce" 
-                        title="E-Commerce App" 
-                        thumbnail={thumbEcommerce}>
-                         E-commerce with ecommerce.js
                     </WorkGridItem>
                 </Section>
                 <Section>

@@ -19,7 +19,7 @@ const Work = () => {
                   <ListItem>
                       <Meta>Website</Meta>
                       <Link href='https://crypto-project-react-app.vercel.app'>
-                          Weather App  <ExternalLinkIcon mx='2px'/>
+                          Crypto Web App  <ExternalLinkIcon mx='2px'/>
                       </Link>
                   </ListItem>
                   <ListItem>
