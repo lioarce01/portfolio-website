@@ -14,6 +14,7 @@ import thumbPizza from '../public/images/works/thumbPizza.png'
 import thumbTwitch from '../public/images/works/thumbTwitch.png'
 import thumbFinance from '../public/images/works/thumbFinance.png'
 import thumbTesla from '../public/images/works/thumbTesla.png'
+import thumbCryptoYield from '../public/images/works/thumbCryptoYield.png'
 import Layout from '../components/layouts/article'
 import { Meta } from '../components/work'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -132,6 +133,14 @@ const Works = () => {
                         title="Tesla Clone App" 
                         thumbnail={thumbTesla}>
                          Tesla Clone Web with ReactJS
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem 
+                        id="crypto-yield"
+                        title="Crypto Web App" 
+                        thumbnail={thumbCryptoYield}>
+                         Frontend Crypto Web
                     </WorkGridItem>
                 </Section>
                 </SimpleGrid> 
