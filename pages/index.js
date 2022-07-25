@@ -37,7 +37,7 @@ const Page = () => {
             <Heading as='h2' variant='page-title'>
                 Lionel Arce
             </Heading>
-            <p>Full-stack web developer</p>
+            <p>Full-stack developer</p>
             </Box>
             <Box 
                 flexShrink={0} 
@@ -95,7 +95,7 @@ const Page = () => {
             <BioSection>
                 <BioYear> 2022 to present </BioYear>
                 Studying Accounting at National University of La Matanza.
-                Studying Fullstack Javascript and Blockchain Developer.
+                Studying Fullstack Developer and Blockchain Developer.
             </BioSection>
         </Section>
         <Section delay={0.3}>
